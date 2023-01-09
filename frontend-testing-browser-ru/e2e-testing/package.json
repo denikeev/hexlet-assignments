@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "test": "JEST_PUPPETEER_CONFIG=jest-puppeteer.config.cjs jest --colors",
-    "start": "node server/bin/server.js"
+    "start": "node server/bin/server.js",
+    "test-watch": "JEST_PUPPETEER_CONFIG=jest-puppeteer.config.cjs jest --colors --watch"
   },
   "author": "Hexlet",
   "license": "ISC",
